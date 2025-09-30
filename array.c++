@@ -2,10 +2,12 @@
 using namespace std;
 void print(int *arr, int n)
 {
+    int sum = 0;
     for (int i = 0; i < n; i++)
     {
-        cout << arr[i] << " ";
+        sum += arr[i];
     }
+    cout << sum << endl;
 }
 int main()
 {
